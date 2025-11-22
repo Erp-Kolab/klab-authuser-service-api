@@ -1,0 +1,6 @@
+server:
+  servlet:
+    context-path: /authuser
+services:
+  people:
+    getpeople: ${SERVICE_PEOPLE}/api/v1/personnel
